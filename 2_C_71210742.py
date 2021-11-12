@@ -3,7 +3,7 @@ kalimat = str(input("Masukkan kalimat : "))
 kata = str(input("Masukkan kata untuk dihitung : "))
 
 #Proses untuk mencari jumlah kata yang telah ditentukan dalam sebuah kalimat
-jumlah = kalimat.count(kata)
+jumlah = kalimat.casefold().count(kata)
 
 
 #Hasil dari proses
